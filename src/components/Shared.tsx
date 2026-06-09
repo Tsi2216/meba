@@ -35,63 +35,133 @@ export function MoonOrb({
 }) {
   return (
     <div
-      className={`relative flex-shrink-0 rounded-full ${pulse ? 'moon-pulse' : ''}`}
+      className={`relative flex-shrink-0 rounded-full ${
+        pulse ? 'moon-pulse' : ''
+      }`}
       style={{
         width: size,
         height: size,
-        overflow: 'hidden',
       }}
     >
-      {/* 🌕 base sphere */}
+      {/* Main moon */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
           borderRadius: '50%',
-          background:
-            'radial-gradient(circle at 30% 30%, #ffffff 0%, #f2f2f2 35%, #d2d2d2 60%, #a8a8a8 100%)',
-          boxShadow:
-            'inset -18px -18px 35px rgba(0,0,0,0.35), inset 10px 10px 20px rgba(255,255,255,0.25)',
-        }}
-      />
-
-      {/* 🌗 light direction shadow */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          borderRadius: '50%',
-          background:
-            'radial-gradient(circle at 70% 40%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.25) 75%, rgba(0,0,0,0.45) 100%)',
-          mixBlendMode: 'multiply',
-        }}
-      />
-
-      {/* 🌑 natural crater clusters (irregular, more “human-eye moon”) */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          borderRadius: '50%',
-          backgroundImage: `
-            radial-gradient(circle at 22% 28%, rgba(90,90,90,0.25) 0%, transparent 18%),
-            radial-gradient(circle at 48% 35%, rgba(110,110,110,0.18) 0%, transparent 22%),
-            radial-gradient(circle at 65% 60%, rgba(80,80,80,0.2) 0%, transparent 20%),
-            radial-gradient(circle at 35% 75%, rgba(100,100,100,0.15) 0%, transparent 18%),
-            radial-gradient(circle at 55% 20%, rgba(70,70,70,0.12) 0%, transparent 16%)
+          overflow: 'hidden',
+          background: `
+            radial-gradient(
+              circle at 30% 30%,
+              #fffef8 0%,
+              #f8f1dc 22%,
+              #eadfc2 48%,
+              #cfbea0 75%,
+              #a69479 100%
+            )
           `,
-          opacity: 0.85,
+          boxShadow: `
+            inset -16px -16px 30px rgba(0,0,0,.28),
+            inset 10px 10px 18px rgba(255,255,255,.18)
+          `,
         }}
-      />
+      >
+        {/* Lunar maria (dark regions visible from Earth) */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: '8%',
+            borderRadius: '50%',
+            opacity: 0.4,
+            backgroundImage: `
+              radial-gradient(ellipse at 35% 30%, rgba(70,60,45,.55) 0%, transparent 28%),
+              radial-gradient(ellipse at 65% 35%, rgba(80,70,55,.45) 0%, transparent 22%),
+              radial-gradient(ellipse at 45% 58%, rgba(75,65,50,.50) 0%, transparent 30%),
+              radial-gradient(ellipse at 28% 70%, rgba(70,60,45,.40) 0%, transparent 18%),
+              radial-gradient(ellipse at 72% 68%, rgba(65,55,40,.35) 0%, transparent 16%)
+            `,
+            filter: 'blur(1px)',
+          }}
+        />
 
-      {/* ✨ atmospheric glow */}
+        {/* Craters */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            borderRadius: '50%',
+            backgroundImage: `
+              radial-gradient(circle at 22% 28%, rgba(80,70,55,.28) 0%, rgba(0,0,0,.12) 6%, transparent 18%),
+              radial-gradient(circle at 48% 35%, rgba(90,80,65,.22) 0%, rgba(0,0,0,.10) 8%, transparent 22%),
+              radial-gradient(circle at 65% 60%, rgba(80,70,55,.24) 0%, rgba(0,0,0,.12) 7%, transparent 20%),
+              radial-gradient(circle at 35% 75%, rgba(90,80,65,.18) 0%, rgba(0,0,0,.08) 6%, transparent 18%),
+              radial-gradient(circle at 78% 22%, rgba(85,75,60,.15) 0%, transparent 14%)
+            `,
+            opacity: 0.9,
+          }}
+        />
+
+        {/* Surface texture */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            borderRadius: '50%',
+            background: `
+              repeating-radial-gradient(
+                circle at center,
+                rgba(255,255,255,.015) 0px,
+                rgba(255,255,255,.015) 2px,
+                transparent 3px,
+                transparent 8px
+              )
+            `,
+            opacity: 0.4,
+            mixBlendMode: 'soft-light',
+          }}
+        />
+
+        {/* Natural shading */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            borderRadius: '50%',
+            background: `
+              radial-gradient(
+                circle at 70% 40%,
+                rgba(0,0,0,0) 35%,
+                rgba(0,0,0,.15) 70%,
+                rgba(0,0,0,.35) 100%
+              )
+            `,
+            mixBlendMode: 'multiply',
+          }}
+        />
+
+        {/* Rim highlight */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            borderRadius: '50%',
+            border: '1px solid rgba(255,245,220,.35)',
+          }}
+        />
+      </div>
+
+      {/* Outer moon glow */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
           borderRadius: '50%',
-          boxShadow:
-            '0 0 35px rgba(255,255,255,0.18), 0 0 90px rgba(255,255,255,0.08)',
+          boxShadow: `
+            0 0 20px rgba(255,245,210,.45),
+            0 0 50px rgba(255,225,160,.25),
+            0 0 100px rgba(255,220,120,.10)
+          `,
+          pointerEvents: 'none',
         }}
       />
     </div>
