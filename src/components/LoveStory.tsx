@@ -7,7 +7,7 @@ const EPISODES = [
     num: 1,
     title: 'Keeletat 1 ken',
     emoji: '✨',
-    story: `keeletat and ken eshi atlegnm🤔 meches keeletat hulet ken ayhon meches🤭 keeletat andua ken anten yagegnehubat nat fetari mn yahl biwedegn nw gn mn bye tselye nw anten yagegnehuh🥹 yeldeth ken alem anten yemesele asteway sew yagegnechbet ene demo alemen yagegnehubet ken nw 🥰 yene hulu neger aleme hywete slalehegn yene slehonk edlegna negn😊 fkr aleme lbe lay yalehn gzat btayew 🙄............`,
+    story: `keeletat and ken eshi atlegnm🤔 meches keeletat hulet ken ayhon meches🤭 keeletat andua ken anten yagegnehubat nat fetari mn yahl biwedegn nw gn mn bye tselye nw anten yagegnehuh🥹 yeldeth ken alem anten yemesele asteway sew yagegnechbet ene demo alemen yagegnehubet ken nw 🥰 yene hulu neger aleme hywete slalehegn yene slehonk edlegna negn😊 stotaye lbe lay yalehn gzat btayew 🙆❤‍🔥............`,
   },
   {
     num: 2,
@@ -20,7 +20,7 @@ lewerema endi atguagua🙉  PART 2 KETAY AMET😁`,
     num: 3,
     title: 'Birthday Memory',
     emoji: '🎂',
-    story: `ldeth ken lemejemerya gize yegna sefer chika adaltogn yesakhbgnn mechem alresahulhm  `,
+    story: `ldeth ken lemejemerya gize yegna sefer chika adaltogn yesakhbgnn mechem alresahulhm 😠 `,
   },
   {
     num: 4,
