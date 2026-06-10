@@ -7,14 +7,14 @@ const EPISODES = [
     num: 1,
     title: 'Keeletat 1 ken',
     emoji: '✨',
-    story: `Henokna Tsion mibalu ljoch neberu eshi atlegnm kezanlh huletum zmtegnana sew maykerbu nachew beteley yesun kostaranetma ateykegn endet endehone baytawekm tegbabtew arefut eskahun yetedereesebet neger baynorm guadegnamoch honu bemigerm huneta wendme ehite eyalum yashkabtu neber alu were aydebekm beyekenu mawratachewn ketelu mistregna guadegnam honu neger gn keeletat and ken yihe mashkabetachew liketl alchalem wede fkr tekeyere gud eko nw endi eyalu nw yeszendro ljoch gud yeserun enalh ljitua beseatu fkr endemayzat 100% ergtegn hona nw mttemamenew mnm mamen atfelgm ena yehone seat tnsh teraraku alu ay gize keza ech ebd yehonech hulum kerefede nw migebat endalfokerech beman bso bigegn tru meseleh ayii betena telekefech alkuh kebad nw ljum endihu yewazza aydelem bezmta mektat yakbetal afrso serat lbelh bergt ayferedbatm lesua sewn mamen endeterara yegezefebat seat nebr ayigermm hulum sew and endalhone asayat mn ayinet sew bihon nw yasblal des bemil huneta  guadegnnetachew alzelekem keeletat and ken mata ............`,
+    story: `keeletat and ken eshi atlegnm🤔 meches keeletat hulet ken ayhon meches🤭 keeletat andua ken anten yagegnehubat nat fetari mn yahl biwedegn nw gn mn bye tselye nw anten yagegnehuh🥹 yeldeth ken alem anten yemesele asteway sew yagegnechbet ene demo alemen yagegnehubet ken nw 🥰 yene hulu neger aleme hywete slalehegn yene slehonk edlegna negn😊 fkr aleme lbe lay yalehn gzat btayew 🙄............`,
   },
   {
     num: 2,
     title: 'How It All Started',
     emoji: '💬',
-    story: `yihe hulu yetejemerew beand text neber .........
-PART 2 KETAY AMET`,
+    story: `fkr tarikachnn ltsf neber eko gn kenun adebelalke yikr atlegnm bye enji rechew aydelem demo😌 gn beka negreh malakewn and mistir lngerh 👂........
+lewerema endi atguagua🙉  PART 2 KETAY AMET😁`,
   },
   {
     num: 3,
@@ -26,13 +26,13 @@ PART 2 KETAY AMET`,
     num: 4,
     title: 'Our Special Day',
     emoji: '22🌙',
-    story: `betam special mlew ken yeberedow ken nw  yetegenagnenbet amet blen sngenagn ahun yihen mn yilutal gn mnalbatm fkr yeyazegn yan ken hula yimeslegnal steretr.... asbbet endegmewalen ..........`,
+    story: `betam special mlew ken yeberedow ken nw  yetegenagnenbet amet blen sngenagn etu gud saysema alu😁 ahun yihen mn yilutal🤭 gn asbbet endegmewalen ..........`,
   },
   {
     num: 5,
     title: 'Forever Grateful',
     emoji: '❤️',
-    story: `Henoke andande eko kal fkrn awtto meglets ayichlm lene endi neh bye lemeglets siyaktegn aleme elhalew yemrm aleme hywete neh bene edme lk nurlgn rejim edme ketenaga endiseth tselote nw melkam lidet bale ewedhalew ❤️`,
+    story: `Henoke andande kal fkrn awtto meglets ayichlm lene endi neh bye lemeglets siyaktegn aleme elhalew yemrm aleme hywete neh bene edme lk nurlgn rejim edme ketenaga endiseth tselote nw enkuan teweledklgn melkam lidet bale ewedhalew❤️`,
   },
 ];
 
