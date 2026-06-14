@@ -7,7 +7,7 @@ const INITIAL_EPISODES = [
     num: 1,
     title: 'Keeletat 1 ken',
     emoji: '✨',
-    story: `keeletat and ken eshi atlegnm🤔 meches keeletat hulet ken ayhon meches🤭 keeletat andua ken anten yagegnehubat nat fetari mn yahl biwedegn nw gn mn bye tselye nw anten yagegnehuh🥹 yeldeth ken alem anten yemesele asteway sew yagegnechbet ene demo alemen yagegnehubet ken nw 🥰 yene hulu neger aleme hywete slalehegn yene slehonk edlegna negn😊 fkr aleme lbe lay yalehn gzat btayew 🙄............`,
+    story: `keeletat and ken eshi atlegnm🤔 meches keeletat hulet ken ayhon meches🤭 keeletat andua ken anten yagegnehubat nat fetari mn yahl biwedegn nw e😌 mn bye tselye nw anten yagegnehuh🥹 yeldeth ken alem anten yemesele asteway sew yagegnechbet ene demo alemen yagegnehubet ken nw 🥰 yene hulu neger aleme hywete slalehegn yene slehonk edlegna negn😊 Heneri lbe lay yalehn gzat btayew 🙄 .....kalshetkut neber mtlew😁.......`,
   },
   {
     num: 2,
@@ -20,13 +20,13 @@ lewerema endi atguagua🙉 PART 2 KETAY AMET😁`,
     num: 3,
     title: 'Birthday Memory',
     emoji: '🎂',
-    story: `ldeth ken lemejemerya gize yegna sefer chika adaltogn yesakhbgnn mechem alresahulhm`,
+    story: `ldeth ken lemejemerya gize yegna sefer chika adaltogn yesakhbgnn mechem aresalhm😠`,
   },
   {
     num: 4,
     title: 'Our Special Day',
     emoji: '22🌙',
-    story: `betam special mlew ken yeberedow ken nw yetegenagnenbet amet blen sngenagn etu gud saysema alu😁 ahun yihen mn yilutal🤭 gn asbbet endegmewalen ..........`,
+    story: `betam special mlew yeberedow ken tz yilhal yetegenagnenbet amet blen sngenagn etu gud saysema alu🙉 ahun yihen mn yilutal🤭 gn asbbet endegmewalen ..........`,
   },
   {
     num: 5,
@@ -182,7 +182,7 @@ export default function LoveStory() {
                           background: 'rgba(201,168,76,.2)',
                         }}
                       >
-                        <Edit2 size={16} className="inline mr-2" />
+                        <Edit2 size={10} className="inline mr-2" />
                         Edit Story
                       </button>
                     </>
